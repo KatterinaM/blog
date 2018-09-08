@@ -109,12 +109,12 @@ return [
     |
     */
     'attributes' => [
-        'name' => 'Имя',
-        'nickname' => 'Никнейм',
+        'name' => 'Имя/Ник',
         'login' => 'Логин',
+        'phone' => 'Телефон',
         'email' => 'E-mail',
         'password' => 'Пароль',
         'password2' => 'Повторите пароль',
-        'about' => 'Расскажите о себе',
+        'about' => 'O себе',
     ],
 ];

@@ -8,7 +8,7 @@
                     <li><a href="{{ route('authClient.main.about') }}">О нас</a></li>
                     <li><a href="{{ route('authClient.post.allRecipes') }}">Рецепты</a></li>
                     <li><a href="{{ route('authClient.main.feedback') }}">Обратная связь</a></li>
-                    <li><a href="{{ route('main.index') }}">Выйти</a></li>
+                    <li><a href="{{ route('auth.logout') }}">Выйти</a></li>
                 </ul>
             </nav>
         </div>

@@ -8,6 +8,7 @@ class MainController extends Controller
 {
     public function index ()
     {
+        debug ("Ciao");
         return view('client.layouts.page_top_part', [
             'page' => 'client.pages.main',
             'top_part' => 'client.parts.widgets.slider'

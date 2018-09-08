@@ -45,6 +45,9 @@
         Route::post('/login', 'AuthController@loginPost')
             ->name('auth.loginPost');
 
+        Route::get('/logout', 'AuthController@logout')
+            ->name('auth.logout');
+
         Route::get('/registration', 'AuthController@registration')
             ->name('auth.registration');
 
